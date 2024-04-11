@@ -1,0 +1,60 @@
+ <div class="container">
+        <h1>Cadastro de Cliente</h1>
+        <div class="col-1">
+            &nbsp;
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1">
+            &nbsp;
+        </div>
+        <div class="col bg-white">
+            &nbsp;
+        </div>
+        <div class="col-1">
+            &nbsp;
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1">
+            
+            &nbsp;
+        </div>
+        <div class="col bg-white">
+            <p>
+                <form action="/cadastrar" method="POST">
+                    <div class="mb-3 text-start">
+                        <label class="form-label">Nome:</label>
+                        <input type="name" name="nome" class="form-control" id="nome">
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label">Endereço:</label>
+                        <input type="text" name="endereco" class="form-control" id="endereco" placeholder="Rua Alguma coisa">
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label">Bairro:</label>
+                        <input type="text" name="bairro" class="form-control" id="bairro" aria-describedby="bairro">
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label">CEP:</label>
+                        <textarea name="cep" class="form-control" placeholder="" id="cep"></textarea>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label">Cidade:</label>
+                        <textarea name="cidade" class="form-control" placeholder="" id="cidade"></textarea>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label class="form-label">estado:</label>
+                        <textarea name="estado" class="form-control" placeholder="" id="estado"></textarea>
+                    </div>
+                    <div class="mb-3 text-start">
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </div>
+                </form>
+            </p>
+        </div>
+        <div class="col-1">
+            &nbsp;
+        </div>
+    </div>
+</div>
